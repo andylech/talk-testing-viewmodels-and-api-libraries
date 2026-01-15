@@ -44,6 +44,9 @@ paginate: true
 
 <!-- @@@ Audience Questions @@@ -->
 
+<!-- _footer: "" -->
+<!-- _paginate: skip -->
+
 <!-- _class: talk_topics -->
 
 ### Audience Polls
@@ -56,6 +59,9 @@ paginate: true
 ---
 
 <!-- @@@ Topics @@@ -->
+
+<!-- _footer: "" -->
+<!-- _paginate: skip -->
 
 <!-- _class: talk_topics -->
 
