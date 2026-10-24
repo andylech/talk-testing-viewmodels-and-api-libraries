@@ -22,13 +22,10 @@
   font-weight: regular;
 }
 
+a,
 div.attribution {
-  font-size: 16px;
-  padding-top: 24px;
-}
-
-section.details img {
-  margin: 0.5em 0;
+  font-size: 20px;
+  padding-top: 1em;
 }
 
 div.detail-summary,
@@ -44,7 +41,7 @@ div.commentary ul li {
   text-align: center;
 }
 
-div.three-columns {
+div.columns-three {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.5rem;
@@ -56,10 +53,17 @@ div.columns-two {
   gap: 0.5rem;
 }
 
-div.two-columns-uneven {
+div.columns-two-uneven {
   display: grid;
   grid-template-columns: auto auto;
   gap: 0.5rem;
+}
+
+div.commentary ul,
+section.section_title,
+section.section_title ul li {
+  font-family: Pangolin, cursive;
+  text-align: center;
 }
 
 h1 {
@@ -98,6 +102,15 @@ section.talk_topics h3 {
   line-height: 1em;
 }
 
+section.details h4 {
+  line-height: 1em;
+  margin: 0;
+}
+
+section.details img {
+  margin: 0.5em 0;
+}
+
 section.details ul li {
   line-height: 1.5em;
 }
@@ -112,11 +125,13 @@ section.section_title h4 {
   margin: 1em 0;
 }
 
-div.commentary ul,
-section.section_title,
-section.section_title ul li {
-  font-family: Pangolin, cursive;
-  text-align: center;
+section.references_list ul {
+  margin: 0;
+}
+
+section.references_list ul li {
+  font-size: 24px;
+  line-height: 1.0em;
 }
 
 section.section_title h2 {
@@ -148,7 +163,7 @@ section.talk_title ul li {
 }
 
 section.talk_topics ul li {
-  font-size: 36px;
+  font-size: 28px;
   line-height: 2em;
 }
 
@@ -158,5 +173,5 @@ span.break {
 }
 
 table {
-  font-size: 20pt;
+  font-size: 16pt;
 }

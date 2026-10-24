@@ -1,0 +1,15 @@
+{
+    // MD001 - Heading levels should only increment by one level at a time
+    "heading-increment": false,
+    // MD013 - Line length
+    "line-length": { "line_length": 100 },
+    // MD026 - Trailing punctuation in heading
+    "no-trailing-punctuation": false,
+    // MD033 - Inline HTML
+    "no-inline-html":
+        { "allowed_elements": [ "a", "b", "br", "div", "i", "p", "style" ]},
+    // MD004 - Unordered list style
+    "ul-style": false,
+    // MD024 - Multiple headers with the same content
+    "no-duplicate-heading": false
+}

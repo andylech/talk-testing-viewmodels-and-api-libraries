@@ -19,53 +19,42 @@ paginate: true
 
 ## Andy Lech
 
+<!--
+
+ Browse:
+
+ [Orlando Code Camp](https://www.orlandocodecamp.com/)
+
+-->
+
 ---
 
-<!-- @@@ Sponsors @@@ -->
+<!-- Sponsors -->
 
 <!-- _footer: "" -->
 <!-- _paginate: skip -->
 
-![height:640px](./images/sponsors/2026-Code-Mash-Sponsors.png)
+![height:640px](./images/conferences/Atl-Dev-Con-2026-Sponsors.png)
 
 ---
 
-<!-- @@@ Orlando Code Camp @@@ -->
+<!-- Orlando Code Camp -->
 
 <!-- _footer: "" -->
 <!-- _paginate: skip -->
 
-![height:360px](./images/conferences/2026-Orlando-Code-Camp.png)
+![height:460px](./images/conferences/Orlando-Code%20Camp-2027-Early-Spring-1920x840.png)
 
-####  Seminole State College, Sanford, FL
+Sanford / Lake Mary Campus, Sanford, FL
 [https://www.orlandocodecamp.com/](https://www.orlandocodecamp.com/)
 
 ---
 
-<!-- @@@ Audience Questions @@@ -->
-
-<!-- _footer: "" -->
-<!-- _paginate: skip -->
+<!-- Topics -->
 
 <!-- _class: talk_topics -->
 
-### Audience Polls
-
-* How many have written a mobile app before?
-* How many have published an app to an app store?
-* How many have used the MVVM pattern in their app?
-* How many have separate API libraries in their app?
-
----
-
-<!-- @@@ Topics @@@ -->
-
-<!-- _footer: "" -->
-<!-- _paginate: skip -->
-
-<!-- _class: talk_topics -->
-
-### Topics
+## Topics
 
 * What makes cross-platform and mobile different
 * Real-world mobile design components
@@ -74,17 +63,74 @@ paginate: true
 
 ---
 
-<!-- @@@ Section 1 Title @@@ -->
+<!-- Section 1 -->
 
 <!-- _class: section_title -->
 
 ## Part 1
 
-* ### Imagine your house was an app ...
+### Imagine your house was an app ...
 
 ---
 
-<!-- @@@ House - User @@@ -->
+<!-- Data Production, Consumption, and Storage -->
+
+<!-- _class: details -->
+
+### Perspectives on Data
+
+<div class="columns-three">
+
+<div class="column">
+
+![width:360px](./images/houses/isometric-house-profile-concept/17395.jpg)
+
+</div>
+
+<div class="column">
+
+![width:270px](./images/houses/plumbing-problems-solution-isometric-infographic-poster/17767.jpg)
+
+</div>
+
+<div class="column">
+
+![width:360px](./images/houses/smart-home-energy-generation-isometric-poster/16696.jpg)
+
+</div>
+
+</div>
+
+<div class="columns-three">
+
+<div class="column">
+
+#### User
+
+</div>
+
+<div class="column">
+
+#### Web Site
+
+</div>
+
+<div class="column">
+
+#### Mobile App
+
+</div>
+
+</div>
+
+<div class="attribution">
+    <a href="https://www.magnific.com/author/macrovector">
+    Images by macrovector</a> on Magnific
+</div>
+
+---
+
+<!-- House - User -->
 
 <!-- _class: details -->
 
@@ -108,14 +154,13 @@ paginate: true
 </div>
 
 <div class="attribution">
-    <a href="https://www.freepik.com/free-vector/isometric-house-profile-concept_4278104.htm">
-    Image by macrovector</a> on Freepik
-    <p />
+    <a href="https://www.magnific.com/free-vector/isometric-house-profile-concept_4278104.htm">
+    Image by macrovector</a> on Magnific
 </div>
 
 ---
 
-<!-- @@@ House - Grid @@@ -->
+<!-- House - Grid -->
 
 <!-- _class: details -->
 
@@ -139,16 +184,15 @@ paginate: true
 </div>
 
 <div class="attribution">
-    <a href="https://www.freepik.com/free-vector/plumbing-problems-solution-isometric-infographic-poster_4283915.htm">
-    Image by macrovector</a> on Freepik
+    <a href="https://www.magnific.com/free-vector/plumbing-problems-solution-isometric-infographic-poster_4283915.htm">
+    Image by macrovector</a> on Magnific
     <br />
     <i>[Equivalent energy image not found]</i>
-    <p />
 </div>
 
 ---
 
-<!-- @@@ House - Solar @@@ -->
+<!-- House - Solar -->
 
 <!-- _class: details -->
 
@@ -174,14 +218,13 @@ paginate: true
 </div>
 
 <div class="attribution">
-    <a href="https://www.freepik.com/free-vector/smart-home-energy-generation-isometric-poster_4188550.htm">
-    Image by macrovector</a> on Freepik
-    <p />
+    <a href="https://www.magnific.com/free-vector/smart-home-energy-generation-isometric-poster_4188550.htm">
+    Image by macrovector</a> on Magnific
 </div>
 
 ---
 
-<!-- @@@ Section 2 Title @@@ -->
+<!-- Section 2 -->
 
 <!-- _class: section_title -->
 
@@ -193,7 +236,7 @@ paginate: true
 
 ---
 
-<!-- @@@ Web vs Mobile - High-level @@@ -->
+<!-- Web vs Mobile - High-level -->
 
 <!-- _class: details -->
 
@@ -210,13 +253,13 @@ Thank you and good night!
 
 ---
 
-<!-- @@@ Web Architecture - Components @@@ -->
+<!-- Web Architecture - Components -->
 
 <!-- _class: details -->
 
 ### Web Architecture - Components
 
-<p/>
+<p />
 
 ![width:1100px](./images/architecture/web-traditional-components.drawio.svg)
 
@@ -230,7 +273,7 @@ Thank you and good night!
 
 ---
 
-<!-- @@@ Mobile Architecture - Components @@@ -->
+<!-- Mobile Architecture - Components -->
 
 ### Mobile Architecture - Components
 
@@ -249,11 +292,86 @@ Thank you and good night!
 
 ---
 
-<!-- @@@ Section 3 Title @@@ -->
+<!-- Section 4 Title -->
 
 <!-- _class: section_title -->
 
 ## Part 3
+
+* ### Being of two minds about data
+
+---
+
+<!-- Mobile App - Platform Cache -->
+
+### Mobile Apps - Platform Cache
+
+<p />
+
+<div class="columns-two">
+
+<div class="detail-summary">
+
+- Tokens are often created on login, cached locally, and renewed in the background
+
+- Apps often store the most recent token in fast secure platform-level key:value cache
+
+- If a valid token exists on launch, the app can skip directly to a home page
+
+</div>
+
+<div class="columns-two">
+
+![height:450px](./images/screenshots/Amazon-Login-Page.png)
+
+![height:450px](./images/screenshots/Amazon-Home-Page.png)
+
+</div>
+
+</div>
+
+---
+
+<style scoped>
+pre {
+  font-size: 24px;
+}
+</style>
+
+### Mobile Apps - Database Cache
+
+<div class="detail-summary">
+
+- Akavache - [github.com/reactiveui/Akavache](https://github.com/reactiveui/Akavache)
+  An asynchronous typed SQLite cache for cross-platform applications
+
+</div>
+
+```csharp
+// Store an object
+var user = new User { Name = "John", Email = "john@example.com" };
+await CacheDatabase.UserAccount.InsertObject("current_user", user);
+
+// Retrieve an object
+var cachedUser = await CacheDatabase.UserAccount.GetObject<User>("current_user");
+
+// Store with expiration
+await CacheDatabase.LocalMachine.InsertObject("temp_data",
+  someData, DateTimeOffset.Now.AddHours(1));
+
+// Get or fetch pattern
+var data =
+  await CacheDatabase.LocalMachine.GetOrFetchObject("api_data",
+    async () => await httpClient.GetFromJsonAsync<ApiResponse>("https://api.example.com/data"));
+```
+
+---
+
+<!-- Section 3 Title -->
+
+<!-- _class: section_title -->
+
+## Part 4
 
 * ### You got Presentation Logic on my Business Logic
 
@@ -261,7 +379,7 @@ Thank you and good night!
 
 ---
 
-<!-- @@@ MVVM Architecture @@@ -->
+<!-- MVVM Architecture -->
 
 <!-- _class: details -->
 
@@ -280,7 +398,7 @@ Thank you and good night!
 
 ---
 
-<!-- @@@ Mobile Architecture - Real World @@@ -->
+<!-- Mobile Architecture - Real World -->
 
 <!-- _class: details -->
 
@@ -299,7 +417,7 @@ Thank you and good night!
 
 ---
 
-<!-- @@@ Mobile Architecture - Network @@@ -->
+<!-- Mobile Architecture - Network -->
 
 <!-- _class: details -->
 
@@ -311,91 +429,79 @@ Thank you and good night!
 
 ---
 
-<!-- @@@ Section 4 - Golf Channel @@@ -->
-
-<!-- _class: section_title -->
-
-## Part 4
-
-* ### Why?
-
----
-
-<!-- @@@ Golf Channel - Old Tablet Splash Screen (Bad) @@@ -->
-
-<!-- _footer: "" -->
-<!-- _paginate: skip -->
-
-![bg](./images/golf-channel/Old-GC-Android-Tablet-Splash-Screen-Tiger-Cropped.png)
-
----
-
-<!-- @@@ Golf Channel - Old Phone Splash Screen and Crashes @@@ -->
-
-<!-- _footer: "" -->
-<!-- _paginate: skip -->
-
-<div class="columns-two">
-
-<div class="column">
-
-![height:680px](./images/golf-channel/Old-GC-Android-Phone-Splash-Screen-Tiger.png)
-
-</div>
-
-<div>
-
-![height:680px](./images/golf-channel/Old-GC-Android-Crashes.PNG)
-
-</div>
-
-</div>
-
----
-
-<!-- @@@ Golf Channel - VP Pitch @@@ -->
-
-<!-- _footer: "" -->
-<!-- _paginate: skip -->
-
-![height:680px](./images/golf-channel/Golf-Channel-Cross-Platform-Pitch.jpg)
-
----
-
-<!-- @@@ Golf Channel - New Phone Splash Screen and Crashes @@@ -->
-
-<!-- _footer: "" -->
-<!-- _paginate: skip -->
-
-<div class="columns-two">
-
-<div class="column">
-
-![height:680px](./images/golf-channel/New-GC-Android-Phone-Splash-Screen-Tiger.png)
-
-</div>
-
-<div>
-
-![height:680px](./images/golf-channel/New-GC-Android-Crashes.PNG)
-
-</div>
-
-</div>
-
----
-
-<!-- @@@ Section 5 - Testing @@@ -->
+<!-- Section 4 - Golf Channel -->
 
 <!-- _class: section_title -->
 
 ## Part 5
 
+* ### Why?
+
+---
+
+<!-- Golf Channel - Old Tablet Splash Screen (Bad) -->
+
+![height:640px](./images/golf-channel/Old-GC-Android-Tablet-Splash-Screen-Tiger-Cropped.png)
+
+---
+
+<!-- Golf Channel - Old Phone Splash Screen and Crashes -->
+
+<div class="columns-two">
+
+<div class="column">
+
+![height:600px](./images/golf-channel/Old-GC-Android-Phone-Splash-Screen-Tiger.png)
+
+</div>
+
+<div>
+
+![height:600px](./images/golf-channel/Old-GC-Android-Crashes.PNG)
+
+</div>
+
+</div>
+
+---
+
+<!-- Golf Channel - VP Pitch -->
+
+![height:600px](./images/golf-channel/Golf-Channel-Cross-Platform-Pitch.jpg)
+
+---
+
+<!-- Golf Channel - New Phone Splash Screen and Crashes -->
+
+<div class="columns-two">
+
+<div class="column">
+
+![height:600px](./images/golf-channel/New-GC-Android-Phone-Splash-Screen-Tiger.png)
+
+</div>
+
+<div>
+
+![height:600px](./images/golf-channel/New-GC-Android-Crashes.PNG)
+
+</div>
+
+</div>
+
+---
+
+<!-- Section 5 - Testing -->
+
+<!-- _class: section_title -->
+
+## Part 6
+
 * ### How?
 
 ---
 
-<!-- @@@ Mobile Architecture - Real World @@@ -->
+<!-- Mobile Architecture - Real World -->
 
 <!-- _class: details -->
 
@@ -414,11 +520,11 @@ Thank you and good night!
 
 ---
 
-<!-- @@@ Mobile Architecture - Solution @@@ -->
+<!-- Mobile Architecture - Solution -->
 
 <!-- _class: details -->
 
-## Mobile Architecture - Solution
+### Mobile Architecture - Solution
 
 <br />
 
@@ -426,11 +532,11 @@ Thank you and good night!
 
 ---
 
-<!-- @@@ Mobile Architecture - Testing @@@ -->
+<!-- Mobile Architecture - Testing -->
 
 <!-- _class: details -->
 
-## Mobile Architecture - Testing
+### Mobile Architecture - Testing
 
 <br />
 
@@ -438,17 +544,40 @@ Thank you and good night!
 
 ---
 
-<!-- @@@ Section 6 - Problem Details @@@ -->
+<!-- @@@ Refit @@@ -->
+
+<!-- _class: details -->
+
+### API Calls - Auto-generated from Interface
+
+```csharp
+public interface IGitHubApi
+{
+    [Get("/users/{user}")]
+    Task<User> GetUser(string user,
+      [Authorize("Bearer")] string token);
+}
+
+var gitHubApi = RestService.For<IGitHubApi>("https://api.github.com");
+
+// Will add the header "Authorization: Bearer OAUTH-TOKEN}" to the request
+var octocat = await gitHubApi.GetUser("octocat", "OAUTH-TOKEN");
+
+```
+
+---
+
+<!-- Section 6 - Problem Details -->
 
 <!-- _class: section_title -->
 
-## Part 6
+## Part 7
 
 * ### There is another way ...
 
 ---
 
-<!-- @@@ Problem Details - Description @@@ -->
+<!-- Problem Details - Description -->
 
 <!-- _class: details -->
 
@@ -456,7 +585,7 @@ Thank you and good night!
 
 <div>
 
-#### Problem Details
+### Problem Details
 
 ##### *Pros*
 
@@ -521,11 +650,13 @@ of the problem. It may or may not yield further information if dereferenced."
 
 ---
 
-<!-- @@@ Problem Details - Logic Failure Example @@@ -->
+<!-- Problem Details - Purchase Order Error -->
 
 <!-- _class: details -->
 
-#### Problem Details - Logic Failure Example
+### Problem Details - Purchase Order Error
+
+<br />
 
 <div class="columns-two">
 
@@ -569,11 +700,13 @@ Content-Language: en
 
 ---
 
-<!-- @@@ Problem Details - Logic Failure Example @@@ -->
+<!-- Problem Details - Type Validation Error -->
 
 <!-- _class: details -->
 
-#### Problem Details - Validation Failure Example
+### Problem Details - Type Validation Error
+
+<br />
 
 <div class="columns-two">
 
@@ -624,15 +757,36 @@ Content-Language: en
 
 ---
 
-<!-- _footer: "" -->
-<!-- _paginate: skip -->
-
-<!-- @@@ Section 7 - Questions? @@@ -->
+<!-- Section 7 - Questions? -->
 
 <!-- _class: section_title -->
 
-## Part 7
+## Part 8
 
-### Questions?
+### References / Questions?
 
-![width:420px](./images/feedback/find-mobile-bugs-faster-through-viewmodel-and-api-_lech_1023914_feedback-code.png)
+<!-- _footer: "" -->
+<!-- _paginate: skip -->
+
+---
+
+<!-- Page - References -->
+
+<!-- _class: references_list -->
+
+### References
+
+- Reactive Extensions (Rx or Rx.NET) - [reactivex.io](https://reactivex.io/)
+  An API for asynchronous programming with observable streams
+
+- ReactiveUI (RxUI) - [www.reactiveui.net](https://www.reactiveui.net/)
+  A composable Model-View-ViewModel framework for all .NET platforms!
+
+- Refit - [reactiveui.github.io/refit](https://reactiveui.github.io/refit/)
+  An automatic type-safe REST library for .NET Core, Xamarin and .NET
+
+- Akavache - [github.com/reactiveui/Akavache](https://github.com/reactiveui/Akavache)
+  An asynchronous Key-Value store for cross-platform applications
+
+- Splat - [github.com/reactiveui/splat](https://github.com/reactiveui/splat)
+  A cross-platform library for service location, unit testing, and logging
